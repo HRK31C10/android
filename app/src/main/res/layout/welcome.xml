@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar4"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="#47525E"
+        android:title="Login"
+        android:titleTextColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BEM VINDO"
+        android:textColor="#B3E706"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="147dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/img"
+        tools:layout_editor_absoluteX="303dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A IMPORTANCIA DA ATIVIDADE FISICA"
+        android:textColor="#B3E706"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="398dp"
+        android:layout_height="80dp"
+        android:text="TRANSFORME SUA ROTINA NA ATLAS ACADEMY"
+        android:textAlignment="center"
+        android:textColor="#B3E706"
+        android:textDirection="firstStrongRtl"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="406dp"
+        android:layout_height="100dp"
+        android:text="Manter-se ativo melhora a disposição, fortalece o coração e contribui para a saúde mental, estresse e ansiedade. Além disso, a prática regular auxilia no controle do peso e na qualidade do sono, proporcionando mais bem-estar e qualidade de vida."
+        android:textAlignment="center"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A Atlas Academy oferece um ambiente moderno, equipamentos de alta qualidade e acompanhamento profissional para ajudá-lo a alcançar seus objetivos. Aqui você encontra planos flexíveis, aulas dinâmicas e suporte completo para um treino mais eficiente. Invista na sua saúde e descubra o seu verdadeiro potencial."
+        android:textAlignment="center"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="433dp"
+        android:layout_height="63dp"
+        android:background="#47525E"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="-11dp"
+        tools:layout_editor_absoluteY="681dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INICIO"
+        android:textColor="#B3E706"
+        android:textColorLink="#FFFFFF"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="695dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLANOS"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="696dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ATIVIDADES"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="696dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MEU TREINO"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="304dp"
+        tools:layout_editor_absoluteY="696dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
